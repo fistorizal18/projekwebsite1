@@ -162,13 +162,15 @@ p {
 
 .about,
 .fasilitas,
-.contact {
+.contact,
+.gallery {
   padding: 8rem 7% 1.4rem;
 }
 
 .about h2,
 .fasilitas h2,
-.contact h2 {
+.contact h2,
+.gallery h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
@@ -176,7 +178,8 @@ p {
 
 .about h2 span,
 .fasilitas h2 span,
-.contact h2 span {
+.contact h2 span,
+.gallery h2 span {
   color: goldenrod;
 }
 
@@ -218,7 +221,8 @@ p {
 }
 
 .fasilitas p,
-.contact p {
+.contact p,
+.gallery p {
   text-align: center;
   max-width: 30rem;
   margin: auto;
@@ -246,6 +250,24 @@ p {
 
 .fasilitas .row .fasilitas-card .fasilitas-card-title {
   margin: 1rem auto 0.5rem;
+}
+
+/* gallery section */
+
+.gallery .row {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
 }
 
 /* Contact Section */
@@ -386,7 +408,8 @@ footer .credit a {
     font-size: 1.6rem;
   }
 
-  .fasilitas p,.contact p {
+  .fasilitas p,
+  .contact p {
     font-size: 1.4rem;
   }
 
